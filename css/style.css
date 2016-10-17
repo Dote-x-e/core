@@ -12,8 +12,27 @@
    
 }
 
-.bg{
 
-	background-image: url('..sa1/assets/bg.jpg')
+
+.well-lg {
+    border-radius: 0px;
 }
 
+.jumbotron {
+    
+    background: #000 url("../sa1/assets/bg.jpg") center center no-repeat;
+    width: 100%;
+    height: 200%;
+    overflow: hidden;
+    background-size:cover;
+    background-position: 50%;
+    opacity: 0.4;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: -20px;
+}
+.container-fluid .jumbotron {
+    border-radius: 0px;
+}
